@@ -8,13 +8,15 @@ import { BreadcrumbComponent } from './component/breadcrumb/breadcrumb.component
 
 import { BannerComponent } from './component/banner/banner.component';
 import { LoginFormModule } from './module/login-form/login-form.module';
+import { HeaderComponent } from './component/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     BreadcrumbComponent,
-    BannerComponent
+    BannerComponent,
+    HeaderComponent
   ],
   imports: [
     NgbModule.forRoot(),
