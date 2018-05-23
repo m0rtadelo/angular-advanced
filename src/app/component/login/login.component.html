@@ -1,0 +1,7 @@
+<p *ngIf="!logged" (click)="login()">
+    <input class="btn btn-outline-primary" type="button" value="Login">
+</p>
+<p *ngIf="logged" (click)="logout()">
+    <input class="btn btn-danger" type="button" value="Logout">
+</p>
+  
